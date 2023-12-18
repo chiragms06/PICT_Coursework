@@ -13,7 +13,7 @@ Design suitable data structures and implement Pass-I and Pass-II of a two-pass m
 
 ## Operating Systems
 
-### CPU Scheduling ALgorithms
+### CPU Scheduling Algorithms
 Write a program to simulate CPU Scheduling Algorithms: FCFS, SJF (Preemptive), Priority
 (Non-Preemptive) and Round Robin (Preemptive).
 

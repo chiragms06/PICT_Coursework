@@ -17,6 +17,10 @@ Design suitable data structures and implement Pass-I and Pass-II of a two-pass m
 Write a program to simulate CPU Scheduling Algorithms: FCFS, SJF (Preemptive), Priority
 (Non-Preemptive) and Round Robin (Preemptive).
 
+### Memory Placement Algorithms
+Write a program to simulate Memory placement strategies – best fit, first fit, next fit and worst
+fit.
+
 ### Page Replacement Algorithms
 Write a program to simulate Page replacement algorithms (FIFO, LRU and Optimal).
 

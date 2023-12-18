@@ -1,0 +1,8 @@
+Symbol	Address
+A		102
+L1		105
+B		105
+C		103
+D		103
+L2		103
+MULT		102

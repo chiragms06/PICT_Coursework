@@ -6,8 +6,8 @@
 3. [LP-01](https://github.com/chiragms06/PICT_Coursework/tree/lp-01)
 
 ## Semester 4
-1. DSAL
-2. MPL
+1. [DSAL](https://github.com/chiragms06/PICT_Coursework/tree/dsal)
+2. [MPL](https://github.com/chiragms06/PICT_Coursework/tree/mpl)
 
 ## Semester 3
 1. DSL

@@ -1,1 +1,69 @@
+//average ratings of each product
 
+practice> var mapfunc = function(){for(var i=0;i<this.reviews.length;i++){emit(this.product_name,this.reviews[i].rating);}}
+
+practice> var reducefunc = function(key,values){return Array.avg(values);}
+
+practice> db.prodReviews.mapReduce(mapfunc,reducefunc,{out:'result'});
+=======================================================================
+
+//total reviews for each product
+
+practice> var mapfunc = function(){emit(this.product_name,this.reviews.length);}
+
+practice> var reducefunc = function(key,values){return Array.sum(values);}
+
+practice> db.prodReviews.mapReduce(mapfunc,reducefunc,{out:'result'});
+========================================================================
+
+//total price of products in a specific category
+
+practice> db.prodReviews.mapReduce(
+...   function () {
+...     if (this.category === "Electronics") {
+...       emit("Electronics", this.price);
+...     }
+...   },
+...   function (key, values) {
+...     return Array.sum(values);
+...   },
+...   {
+...     out: "electronicsTotalPrice"
+...   }
+... );
+
+===========================================================================
+
+//average rating in a specific category
+
+db.prodReviews.mapReduce(
+  function () {
+      for (var i = 0; i < this.reviews.length; i++) {
+        emit(this.category,this.reviews[i].rating);
+      }
+  },
+  function (key, values) {
+    return Array.avg(values);
+  },
+  {
+    out: "result",
+    query : {category : 'Electronics'}
+  }
+)
+
+=============================================================================
+
+//count of products in each category
+
+db.prodReviews.mapReduce(
+  function () {
+    emit(this.category, 1);
+  },
+  function (key, values) {
+    return Array.sum(values);
+  },
+  {
+    out: "productCountByCategory"
+  }
+)
+===========================================================================

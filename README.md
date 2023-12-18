@@ -1,6 +1,7 @@
-# PICT Coursework - Chirag Siroya
+# Laboratory Practice - 01
 
-## Semester 5
-1. DBMSL
-2. CNSL
-3. LP-01
+## Systems Programming
+
+## Operating Systems
+
+## Elective - Distributed Systems

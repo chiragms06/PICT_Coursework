@@ -26,5 +26,8 @@ Write a program to simulate Page replacement algorithms (FIFO, LRU and Optimal).
 Implementation of Inter-process communication using socket programming: implementing
 multithreaded echo server.
 
+### RPC
+Implementation of RPC Mechanism.
+
 ### Election Algorithms
 Simulation of election algorithms (Ring and Bully).

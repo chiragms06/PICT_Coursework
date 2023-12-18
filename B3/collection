@@ -1,1 +1,127 @@
+db.prodReviews.insertMany([
+{
+  "product_name": "Awesome Smartphone X",
+  "brand": "TechCo",
+  "price": 599.99,
+  "category": "Electronics",
+  "reviews": [
+    {
+      "user_id": 12345,
+      "rating": 5,
+      "comment": "I love this phone! It has an amazing camera and great performance.",
+      "date": "2023-11-05"
+    },
+    {
+      "user_id": 54321,
+      "rating": 4,
+      "comment": "The battery life is good, but it's a bit heavy.",
+      "date": "2023-11-04"
+    }
+  ]
+},
 
+{
+  "product_name": "UltraHD Smart TV",
+  "brand": "TechVision",
+  "price": 799.99,
+  "category": "Electronics",
+  "reviews": [
+    {
+      "user_id": 78901,
+      "rating": 4,
+      "comment": "Great picture quality, but the sound could be better.",
+      "date": "2023-11-03"
+    },
+    {
+      "user_id": 23456,
+      "rating": 5,
+      "comment": "This TV is amazing! Crystal clear display and excellent features.",
+      "date": "2023-11-02"
+    }
+  ]
+},
+
+{
+  "product_name": "High-Performance Laptop",
+  "brand": "SwiftTech",
+  "price": 1299.99,
+  "category": "Computers",
+  "reviews": [
+    {
+      "user_id": 45678,
+      "rating": 5,
+      "comment": "This laptop is a beast! Fast and sleek design.",
+      "date": "2023-11-01"
+    },
+    {
+      "user_id": 98765,
+      "rating": 4,
+      "comment": "Impressive performance, but the battery life could be better.",
+      "date": "2023-10-31"
+    }
+  ]
+},
+
+{
+  "product_name": "Wireless Noise-Canceling Headphones",
+  "brand": "SoundBliss",
+  "price": 199.99,
+  "category": "Electronics",
+  "reviews": [
+    {
+      "user_id": 11111,
+      "rating": 5,
+      "comment": "These headphones are amazing! The noise cancellation is top-notch.",
+      "date": "2023-10-30"
+    },
+    {
+      "user_id": 22222,
+      "rating": 4,
+      "comment": "Great sound quality, but they could be more comfortable for long use.",
+      "date": "2023-10-29"
+    }
+  ]
+},
+
+{
+  "product_name": "Stylish Smartwatch",
+  "brand": "TimeTech",
+  "price": 149.99,
+  "category": "Wearable Tech",
+  "reviews": [
+    {
+      "user_id": 33333,
+      "rating": 4,
+      "comment": "Nice design and features, but the battery life is somewhat short.",
+      "date": "2023-10-28"
+    },
+    {
+      "user_id": 44444,
+      "rating": 5,
+      "comment": "I love this smartwatch! It tracks my fitness goals perfectly.",
+      "date": "2023-10-27"
+    }
+  ]
+},
+
+{
+  "product_name": "Gourmet Espresso Machine",
+  "brand": "BeanMaster",
+  "price": 349.99,
+  "category": "Kitchen Appliances",
+  "reviews": [
+    {
+      "user_id": 55555,
+      "rating": 5,
+      "comment": "Makes the best espresso I've ever had. A must-have for coffee lovers!",
+      "date": "2023-10-26"
+    },
+    {
+      "user_id": 66666,
+      "rating": 3,
+      "comment": "Good coffee, but it's a bit complicated to use.",
+      "date": "2023-10-25"
+    }
+  ]
+}
+])

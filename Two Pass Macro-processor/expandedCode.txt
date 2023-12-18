@@ -1,0 +1,15 @@
+
+
+MOVER AREG 48 
+ADD AREG '1' 
+MOVER BREG 99 
+ADD AREG '5' 
+
+this is nalla code 
+mover pictModelSchool PICT 
+MOVEM BREG AREG 
+MOVER CREG 78 
+MOVER DREG AREG 
+ADD CREG '15' 
+ADD DREG '10' 
+

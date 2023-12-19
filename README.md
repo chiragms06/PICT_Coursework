@@ -1,4 +1,4 @@
-# PICT Coursework - Chirag Siroya
+# Academic Assignments
 
 ## Semester 5
 1. [DBMSL](https://github.com/chiragms06/PICT_Coursework/tree/dbmsl)

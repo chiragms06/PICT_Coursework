@@ -4,10 +4,10 @@
 
 1. Implement a class Complex which represents the Complex Number data type. Implement
 the following
-1. Constructor (including a default constructor which creates the complex number 0+0i).
-2. Overloaded operator+ to add two complex numbers.
-3. Overloaded operator* to multiply two complex numbers.4. Overloaded << and >> to
-print and read Complex Numbers.
+  a. Constructor (including a default constructor which creates the complex number 0+0i).
+  b. Overloaded operator+ to add two complex numbers.
+  c.Overloaded operator* to multiply two complex numbers.4. Overloaded << and >> to
+    print and read Complex Numbers.
 
 2. Develop an object oriented program in C++ to create a database of student information
 system containing the following information: Name, Roll number, Class, division, Date of

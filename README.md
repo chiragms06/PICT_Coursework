@@ -57,13 +57,8 @@ c) The booking can be cancelled.
 
                  OR
 
-   Write C++ program for storing appointment schedule for day. Appointments are booked
-randomly using linked list. Set start and end time and min and max duration for visit slot.
-Write functions fora) Display free slots
-b) Book appointment
-c) Cancel appointment ( check validity, time bounds, availability)
-d) Sort list based on time
-e) Sort list based on time using pointer manipulation.
+   Write C++ program for storing binary number using doubly linked lists. Write functionsa) To compute 1‘s and 2‘s complement
+b) Add two binary numbers.
 
 8. Second year Computer Engineering class, set A of students like Vanilla Ice-cream and set
 B of students like butterscotch ice-cream. Write C++ program to store two sets using
@@ -73,8 +68,15 @@ c) Number of students who like neither vanilla nor butterscotch.
 
                 OR
 
-   Write C++ program for storing binary number using doubly linked lists. Write functionsa) To compute 1‘s and 2‘s complement
-b) Add two binary numbers.
+  Write C++ program for storing appointment schedule for day. Appointments are booked
+randomly using linked list. Set start and end time and min and max duration for visit slot.
+Write functions for
+a) Display free slots
+b) Book appointment
+c) Cancel appointment ( check validity, time bounds, availability)
+d) Sort list based on time
+e) Sort list based on time using pointer manipulation.
+   
 
 ## Group D
 

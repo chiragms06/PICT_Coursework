@@ -10,6 +10,5 @@
 2. [MPL](https://github.com/chiragms06/PICT_Coursework/tree/mpl)
 
 ## Semester 3
-1. DSL
-2. OOPL
-3. CGL
+1. [DSL](https://github.com/chiragms06/PICT_Coursework/tree/dsl)
+2. [OOPL](https://github.com/chiragms06/PICT_Coursework/tree/oopl)
